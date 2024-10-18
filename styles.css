@@ -1,0 +1,29 @@
+.box-text{
+    background: black;
+    height: 25px;
+    width: 100px;
+    color: white;
+    
+}
+
+.box-container {
+    display: flex;               
+    justify-content: center;      
+    align-items: center;         
+    height: 100vh;               
+}
+
+div.box{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    
+    transform: translateY(-50%);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    
+}
